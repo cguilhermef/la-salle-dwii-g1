@@ -1,0 +1,25 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand navbar-dark bg-info">
+  <a class="navbar-brand" href="#">Clínica Legal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/clinica-legal">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Médicos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="expertises.jsp">Especializações</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Agendar</a>
+      </li>
+    </ul>
+  </div>
+</nav>
